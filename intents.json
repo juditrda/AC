@@ -13,7 +13,7 @@
          "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
         {"tag": "vegan_food",
-         "patterns": ["Do you have any vegan food?", "Do you have any vegetarian food", "Do you have vegetarian or vegan catering?","food", "catering" ],
+         "patterns": ["Do you have any vegan food?", "Do you have any vegetarian food", "Do you have vegetarian or vegan catering?","food", "catering","vegan","vegetarian" ],
          "responses": ["Yes, of course. We have vegan and vegetarian food on board. Take a look at our online menu or ask for it on board to the flight attendant"]
         },
         {"tag": "mopeds",
