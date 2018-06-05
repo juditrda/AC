@@ -25,18 +25,16 @@
          "responses": ["You can take on board 1 piece of hand luggage up to a maximum weight of 10 kg, and a maximum size of 55x40x20 cm. You can also carry a smaller bag or case (max. 35x20x20), which must be stored under the seat in front."]
         },
         {"tag": "pets",
-         "patterns": ["Can I bring my pet on the flight?", "pet", "animals", "fly with animals"],
+         "patterns": ["Can I bring my pet on the flight?", "pet", "animals", "fly with animals", "pet on board", "animal on board"],
          "responses": ["It is allowed to fly with your pet. It will travel with you on board the plane. Only one pet is allowed per person and a maximum of 2 pets per flights in the cabin of the plane; animals cannot be carried in the plane's cargo hold. Also, your pet must fly in an approved, non-rigid pet-carrier (not exceeding 45x39x21 cm and 8 kg with the pet inside). During the flight, your pet must travel on the floor, between your legs or under your seat. You can include a pet in the booking when you purchase the flight and see the fares for this service."]
         },
         {"tag": "rental",
-         "patterns": ["What do I do if my baggage is demage or lost?" ],
-         "responses": ["Are you looking to rent today or later this week?"],
-         "context_set": "rentalday"
+         "patterns": ["What do I do if my baggage lost?", "lost baggage", "lost luggage", "lost", "missing baggage luggage", "don't find found luggage", "missing checked baggage"],
+         "responses": ["If you are at the airport and your bag has failed to appear on the luggage belt, follow these steps: 1. Go to the Lost and Found office located in the baggage collection area. 2. Report the incident in the Property Irregularity Report (P.I.R.) that you will be given there. 3. Once we have located your luggage, we will inform you via SMS or by phone, and we will send it to you at the address specified in the P.I.R. If you would like to specify a new delivery address, please advise us so we can update it. "],
         },
-        {"tag": "today",
-         "patterns": ["today"],
-         "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"],
-         "context_filter": "rentalday"
+        {"tag": "Ticket name",
+         "patterns": ["Can I change the name of my ticket?", "change name ticket", "name", "surname"],
+         "responses": ["Please note that the name on your boarding pass must be the same as on your ID document. If you have misspelt any of the passengers' names (e.g. Ann instead of Anne), or if you have given a wrong email address, you can call our Customer Services Centre and we will change it at no extra charge. You can also change the name and/or surname of the passengers in your booking. Just go to your booking via our website and follow the steps when prompted. The cost of changing the ticket's name is 30 eur."]
         }
    ]
 }
