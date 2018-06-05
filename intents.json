@@ -17,8 +17,8 @@
          "responses": ["Yes, of course. We have vegan and vegetarian food on board. Take a look at our online menu or ask for it on board to the flight attendant"]
         },
         {"tag": "mopeds",
-         "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?" ],
-         "responses": ["We rent Yamaha, Piaggio and Vespa mopeds", "We have Piaggio, Vespa and Yamaha mopeds"]
+         "patterns": ["Can I pay the meals by credit card on board?", "paying on board", "food credit card" ],
+         "responses": ["Yes you can. You'll be able to pay by credit card or cash."]
         },
         {"tag": "payments",
          "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
