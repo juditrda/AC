@@ -20,7 +20,7 @@
          "patterns": ["Can I pay the meals by credit card on board?", "paying on board", "food credit card" ],
          "responses": ["Yes you can. You'll be able to pay by credit card or cash."]
         },
-        {"tag": "payments",
+        {"tag": "checked baggage limitations",
          "patterns": ["What is my hand luggage allowed?", "hand luggage", "cabin luggage", "cabin bag allowance", "cabin baggage", "on board baggage", "checked baggage", "bag", "baggage weight", "baggage size", "weight", "size" ],
          "responses": ["You can take on board 1 piece of hand luggage up to a maximum weight of 10 kg, and a maximum size of 55x40x20 cm. You can also carry a smaller bag or case (max. 35x20x20), which must be stored under the seat in front."]
         },
@@ -28,8 +28,12 @@
          "patterns": ["Can I bring my pet on the flight?", "pet", "animals", "fly with animals", "pet on board", "animal on board"],
          "responses": ["It is allowed to fly with your pet. It will travel with you on board the plane. Only one pet is allowed per person and a maximum of 2 pets per flights in the cabin of the plane; animals cannot be carried in the plane's cargo hold. Also, your pet must fly in an approved, non-rigid pet-carrier (not exceeding 45x39x21 cm and 8 kg with the pet inside). During the flight, your pet must travel on the floor, between your legs or under your seat. You can include a pet in the booking when you purchase the flight and see the fares for this service."]
         },
+        {"tag": "lost baggage",
+         "patterns": ["What do I do if my baggage is lost?", "my baggage is lost", "my luggage is lost", "lost", "missing", "missing luggage baggage", "lost luggage baggage"],
+         "responses": ["If you are at the airport and your bag has failed to appear on the luggage belt, follow these steps: 1. Go to the Lost and Found office located in the baggage collection area. 2. Report the incident in the Property Irregularity Report (P.I.R.) that you will be given there.  3. Once we have located your luggage, we will inform you via SMS or by phone, and we will send it to you at the address specified in the P.I.R. If you would like to specify a new delivery address, please advise us so we can update it. "]
+        },
         {"tag": "rental",
-         "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
+         "patterns": [],
          "responses": ["Are you looking to rent today or later this week?"],
          "context_set": "rentalday"
         },
