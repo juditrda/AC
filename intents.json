@@ -13,15 +13,15 @@
          "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
         {"tag": "vegan_food",
-         "patterns": ["Do you have any vegan food?", "Do you have any vegetarian food", "Do you have vegetarian or vegan catering?","food", "catering","vegan","vegetarian" ],
+         "patterns": ["Do you have any vegan food?", "food without meat", "vegtarian vegan menu", "Do you have any vegetarian food", "Do you have vegetarian or vegan catering?","food", "catering","vegan","vegetarian" ],
          "responses": ["Yes, of course. We have vegan and vegetarian food on board. Take a look at our online menu or ask for it on board to the flight attendant"]
         },
         {"tag": "payments on board",
-         "patterns": ["Can I pay the meals by credit card on board?", "paying on board", "food credit card" ],
+         "patterns": ["Can I pay the meals by credit card on board?", "paying on board", "food drinks meals menus credit card on board" ],
          "responses": ["Yes you can. You'll be able to pay by credit card or cash."]
         },
         {"tag": "checked baggage limitations",
-         "patterns": ["What is my hand luggage allowed?", "hand luggage", "cabin luggage", "cabin bag allowance", "cabin baggage", "on board baggage", "checked baggage", "bag", "baggage weight", "baggage size", "weight", "size" ],
+         "patterns": ["What is my hand luggage allowed?", "hand luggage", "cabin luggage", "cabin bag allowance", "cabin baggage", "on board baggage", "checked baggage", "bag", "baggage weight", "baggage size", "baggage weight", "baggage size", "baggage limitations" ],
          "responses": ["You can take on board 1 piece of hand luggage up to a maximum weight of 10 kg, and a maximum size of 55x40x20 cm. You can also carry a smaller bag or case (max. 35x20x20), which must be stored under the seat in front."]
         },
         {"tag": "pets",
@@ -45,7 +45,7 @@
          "responses": ["You can apply for a refund if:  1. Your flight was cancelled due to a flight disruption. 2. Your flight was changed by other airline due to a flight disruption. 3. Your flight was delayed 3 or more hours. 4. In case of cancellation, if we were unable to seat you in a suitable alternative seat. 5. In case of large delay or cancellation, you changed your flight/seat type and purchased a new seat. 6. Most refunds are done back to the same card you paid for your ticket and within two weeks time."]
 },
 {"tag": "delayed flights",
-         "patterns": ["my flight has been delayed", . "passenger rights of delayed flight", "rifhts or options if delay","delayed flight departure", "delay", "delay rights", "passenger dely rights"],
+         "patterns": ["my flight has been delayed", "passenger rights of delayed flight", "rifhts or options if delay","delayed flight departure", "delay", "delay rights", "passenger dely rights"],
          "responses": ["Apologies if your flight has been delayed. In this case if the delay is morre that 2 hours but less than 5 hours you have the following rights: 1. refreshment and meal in a value that is proportionate to your delay. 2. two telephone calls, or telex, fax messages or e-mails. If your flight has been delayed more than 5 hours you have the following rights: 1. you can cancel your fligh reservation and we will reimburse the total fare of the cancelled flight at the price at which it was bought. 2. we can re-book you onto a return flight operated by us or another airline under comparable transport conditions to your first point of departure, at the earliest opportunity, subject to availability of seats. 3. if as a result of the long delay, the time of departure of the delayed flight is the day after the planned day of departure, we will arrange hotel accommodation and transport between the airport and place of accommodation free of charge. *In all situations if th delay is more than 3 hours you have also the right of claim a compensation."]
 },
 {"tag": "flight information",
