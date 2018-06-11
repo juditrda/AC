@@ -33,7 +33,7 @@
          "responses": ["If you are at the airport and your bag has failed to appear on the luggage belt, follow these steps: 1. Go to the Lost and Found office located in the baggage collection area. 2. Report the incident in the Property Irregularity Report (P.I.R.) that you will be given there.  3. Once we have located your luggage, we will inform you via SMS or by phone, and we will send it to you at the address specified in the P.I.R. If you would like to specify a new delivery address, please advise us so we can update it. "]
         },
         {"tag": "cancelled flights",
-         "patterns": ["How do I claim a cancelled flight?", "cancelled flight", "my cancellation rights", "passenger cancellation rights", "my flight has been cancelled what do i do", "what happens if my flight is cancelled"],
+         "patterns": ["How do I claim a cancelled flight?", ", rights or options if cancellation", "cancelled flight", "my cancellation rights", "which are my rights if my fligh is cancelled", "passenger cancellation rights", "my flight has been cancelled what do i do", "what happens if my flight is cancelled"],
          "responses": ["If your flight has been cancelled, please go to Manage your booking to see the alternatives that we can offer you. There you can manage changes directly or choose the alternatives available to you more quickly and easily. If you need to make a claim, or ask for compensation, you can do so directly via the Contact page on our website. Before initiating any procedure, check your passenger rights. In case of cancellation you have the following rights: 1. we can re-book you on another flight at the earliest opportunity, subject to availability of seats. 2. we can refund you the total fare paid for the cancelled flight. 3. Also a part from facilitate two phone calls, fax or e-mail, when the time of departure of the new flight is the day after the departure as it was planned for the cancelled flight arrange hotel accommodation and transport between the airport and place of accommodation free of charge. Also note that if your flight is cancelled for reasons attributable to us, you are entitled to receive, besides your passenger rights, a compensation calculated according to the length of the flight: Flights of less than 1500 km: 250 EUR. Flights of between 1500 and 3500 km: 400 EUR. Flights of more than 3500 km: 600 EUR. In the case of extraordinary circumstances, passengers are entitled to assistance at the airport and even hotel accommodation if the flight departs the following day."]
 },
 {"tag": "flight changes",
@@ -45,7 +45,7 @@
          "responses": ["You can apply for a refund if:  1. Your flight was cancelled due to a flight disruption. 2. Your flight was changed by other airline due to a flight disruption. 3. Your flight was delayed 3 or more hours. 4. In case of cancellation, if we were unable to seat you in a suitable alternative seat. 5. In case of large delay or cancellation, you changed your flight/seat type and purchased a new seat. 6. Most refunds are done back to the same card you paid for your ticket and within two weeks time."]
 },
 {"tag": "delayed flights",
-         "patterns": ["my flight has been delayed", "delayed flight departure", "delay", "delay rights"],
+         "patterns": ["my flight has been delayed", . "passenger rights of delayed flight", "rifhts or options if delay","delayed flight departure", "delay", "delay rights", "passenger dely rights"],
          "responses": ["Apologies if your flight has been delayed. In this case if the delay is morre that 2 hours but less than 5 hours you have the following rights: 1. refreshment and meal in a value that is proportionate to your delay. 2. two telephone calls, or telex, fax messages or e-mails. If your flight has been delayed more than 5 hours you have the following rights: 1. you can cancel your fligh reservation and we will reimburse the total fare of the cancelled flight at the price at which it was bought. 2. we can re-book you onto a return flight operated by us or another airline under comparable transport conditions to your first point of departure, at the earliest opportunity, subject to availability of seats. 3. if as a result of the long delay, the time of departure of the delayed flight is the day after the planned day of departure, we will arrange hotel accommodation and transport between the airport and place of accommodation free of charge. *In all situations if th delay is more than 3 hours you have also the right of claim a compensation."]
 },
 {"tag": "flight information",
@@ -53,20 +53,19 @@
          "responses": ["You can see the status of your flight in real time in the Flight Status section in our official webpage, app or in the airports origin or destination webpage. Also, if there's a change, delay or cancellation of your flight, you will be previously informed by e-mail or via app or SMS."]
 },
 {"tag": "electronic devices",
-         "patterns": ["Can I use electronic devices on board?", "electronic devices", "tablets mobiles laptops gameboys games", "flight mode", "e-reader"],
+         "patterns": ["Can I use electronic devices on board", "electronic devices", "tablets mobiles laptops gameboys games", "flight mode", "e-reader"],
          "responses": ["Yeah, I can't sleep on planes either. So sure you can bring your electronic devices like a laptop, tablet, phone, portable game device or e-reader. Please note that all electronic devices should be taken to the cabin. Just remember they have to be on flight mode from boarding to landing. "]
 },
 {"tag": "own food",
-         "patterns": ["Can I bring my own food on board?", "food from home", "food not purchased onboard", "homemade food", "not purchased"],
-         "responses": ["Yes you can. You may bring your own food on board if you follow the safety regulations. Please note that the food cannot be heated during the flight and also that you are not allowed to bring any liquids."]
+         "patterns": ["Can I bring my own food on board", "bring my home food", "bring food from home", "can i heat food on board", "use the micro onboard","food from home", "food not purchased onboard", "homemade food", "not purchased"],
+         "responses": ["You may bring your own food on board if you follow the safety regulations. Please note that the food cannot be heated during the flight and also that you are not allowed to bring any liquids."]
 },
 {"tag": "smoking",
-         "patterns": ["Can I use electronic cigarettes on board", "can i smoke on board", "smoking allow"],
-
+         "patterns": ["Can I use electronic cigarettes on board", "can i smoke on board", "smoking allow", "is it allowed to smoke on board"],
          "responses": ["No you can't. It is terminately prohibited to smoke onboard, even if it's an electronic cigarrete."]
 },
 {"tag": "seat size",
-         "patterns": ["Which is the size of the seat?", "seat size per fares", "seat measures", "are business seats so big?", "are economy seats very small", "distances between seats", "legs distance", "seat comfort"],
+         "patterns": ["Which is the size of the seat", "is it the seat confortable", "seat size per fares", "seat measures", "are business seats so big?", "are economy seats very small", "distances between seats", "legs distance", "seat comfort"],
          "responses": ["Economy class seats are stantarized, so you'll have enough space for your legs to fit and also not disturb or be disturbed by your seat partners. Business class seats are bigger and more confortable, with more space for the legas and also wider, so you won't even notice if there's a flight partner because there's just 4 seats per row, not 6 seats as in Economy class. All of them are made by leather."]
 },
         {"tag": "rental",
