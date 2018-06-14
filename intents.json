@@ -116,6 +116,46 @@
          "patterns": ["I need extra space, do I need to purchase an additional seat?","space problem","more space needed","extra space","the space is not enough"],
          "responses": ["If you are not able to safely and comfortably fit in one seat with the armrests down for the entirety of the flight, please see our Customers Requiring Extra Seating page for information. You can also purchase an extra seat for a musical instrument or a fragile item. Please see our Cabin-seat Baggage page for more information."]
 },
+        {"tag": "insurances",
+         "patterns": ["How can I book a travel insurance", "pet medical insurance", "which options of travel insurance do you have", "insurance options", "baggage insurance", "travel insurance" ],
+         "responses": ["When booking your flight, you have the option to take out different types of insurance: 1. Cancellation insurance: full refund on your booking. 2. Travel insurance: medical expenses at destination. 3. Missed flight cover: free change of flight or refund if you miss your flight. 4. Luggage or special luggage insurance: compensation in the event of loss or damage. 4 .Pet insurance: vet expenses throughout the trip."]
+},
+{"tag": "insurances after booking",
+         "patterns": ["Can I sign up for travel insurance after booking the flight", "can i add insurance after booking", "after booking insurance"],
+         "responses": ["You can sign up for an insurance after booking. Just go to Manage your booking and follow the steps. This sevice has a cost of 10€."]
+},
+{"tag": "insurance cover",
+         "patterns": ["When does insurance coverage begin and end", "insurace coverage", "insurance stars and ends"],
+         "responses": ["The insurances start when you cross the boarding gate and end when the chocks of the plane are placed."]
+},
+{"tag": "liquids",
+         "patterns": ["can i carry bring liquids on board", "liquids allowance", "what liquidscan i carry onboard", "liquids"],
+         "responses": ["allowed liquids in hand baggage: 1. iquids carried must be in a container of no more than 100ml. 2. All liquids should be carried in a single, transparent, re-sealable plastic bag of up to 20cm x 20cm with a total capacity of up to a litre. 3. You must be able to completely close the bag and be able to fit it in your hand baggage. 4. The bag of liquids must be taken out of other hand baggage to be screened separately. Also you can carry some declarated liquids such baby food and milk and also medicines. This has to be prior declarated at the airport authorities."]
+},
+{"tag": "pregnancy",
+         "patterns": ["can i fly if i'm pregnant", "pregnancy restrictions", "pregnant fly condicitons"],
+         "responses": ["If you have any doubts about your suitability to fly or if you have had any complications while pregnant please speak to your doctor before booking your flights. Expectant mothers are free to fly up to 28 weeks of pregnancy. Once an uncomplicated pregnancy reaches its 28th week we require expectant mothers to carry a ‘fit to fly’ letter completed by their midwife or doctor."]
+},
+{"tag": "phone app",
+         "patterns": ["do you have a phone app", "app", "online application"],
+         "responses": ["We have an official app. You can find it in our webpage or on AppleStore, as well as on Android Market and all Apps platforms."]
+},
+{"tag": "childs travelling",
+         "patterns": ["i am travelling with a child", "do child have different fares", "travel with children", "fly with baby", "children baby tickets"],
+         "responses": ["You may know that childs under 8 years old can not travell without an adult (+18). Infants can be included in the booking process, but only those who are under 2 years old have free ticket."]
+},
+{"tag": "reserved seats",
+         "patterns": ["can i reserve my seat number", "reserved seats", "chose seats", "change seats"],
+         "responses": ["You can chose your seat when doing the check-in online. The cost of this service depends on each type of seat. Once your seat is asigned or chosen, if you need to change it, you can change it just one time and it has 20€ cost. "]
+},
+{"tag": "business an economy class",
+         "patterns": ["which are the differences between business and economy class", "which are the services of business class or economy class", "class differences", "class services", "priority"],
+         "responses": ["Most notable differences between Business and Economy class are seat location and comfort, catering services on board, fast track, be able to make changes on your ticket, check-in deadlines... you can find all the information about our different ticket fares on our official webpage ->ticket fares."]
+},
+{"tag": "alcohol on board",
+         "patterns": ["can i bring my own alcohol on board", "do you have alcohol on board", "is it permitted to drink alcohol onboard", "alcoholic drinks"],
+         "responses": ["You can purchase alcoholic drinks onboard if you are over 18 years old. Also you can bring your own alcohol only if the bottle contains 100ml of liquid maximum, and of course, drink it while on board."]
+},
         {"tag": "rental",
          "patterns": [],
          "responses": ["Are you looking to rent today or later this week?"],
