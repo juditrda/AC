@@ -81,7 +81,6 @@
          "responses": ["Once you've completed your booking and depending on your fare selected, your online check-in could be Optima and Excellence Fares: Once you've completed your booking, you'll receive an email containing your boarding passes. Once you have them, don't forget to print them out, or download them on the airline app for smartphones. That way, you'll save time on the day of your flight because, if you don't have to check in any baggage, you can go straight to the boarding gate. In the case of connecting flights, you can also check in online. Basic Fare :You can check in online free of charge by requesting a random seat (subject to availability) between 7 days and 4 hours before your flight departs (except if you are flying from Cardiff, Lyon, Prague or London Heathrow, where you can only check in online up to 24 hours before departure). Most airports we fly to allow online check-in, but there are certain airports for which this service is not available (check whether the airport allows it."]
 },
 {"tag": "Documentation",
-
          "patterns": ["What kind of documents do I need to flight?", "Documents to flight","flight documents","documents","documentation needed","which documents do I need?", "necessary documents."], 
          "responses": ["Normally, your valid ID document or passport will suffice. In any case, the rules may vary depending on your nationality and destination, so we recommend visiting our web page about Documentation where we explain all cases in detail."]
 },
