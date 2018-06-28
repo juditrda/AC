@@ -13,15 +13,15 @@
          "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
         {"tag": "vegan food",
-         "patterns": ["Do you have any vegan food?", "food without meat", "vegtarian vegan menu", "Do you have any vegetarian food", "Do you have vegetarian or vegan catering?","food", "catering","vegan","vegetarian" ],
+         "patterns": ["Do you have any vegan food?", "vegan", "vegtarian vegan menu", "vegetarian food", "Do you have vegetarian or vegan catering?","food", "catering","vegan","vegetarian" ],
          "responses": ["Yes, of course. We have vegan and vegetarian food on board. Take a look at our online menu or ask for it on board to the flight attendant"]
         },
         {"tag": "payments on board",
-         "patterns": ["Can I pay the meals by credit card on board?", "paying on board", "food drinks meals menus credit card on board" ],
+         "patterns": ["Can I pay the meals by credit card on board?", "paying on board", "food drinks meals menus credit card on board","credit card","on board payments" ],
          "responses": ["Yes you can. You'll be able to pay by credit card or cash."]
         },
         {"tag": "checked baggage limitations",
-         "patterns": ["What is my hand luggage allowed?", "hand luggage", "cabin luggage", "cabin bag allowance", "cabin baggage", "on board baggage", "checked baggage", "bag", "baggage weight", "baggage size", "baggage weight", "baggage size", "baggage limitations" ],
+         "patterns": ["What is my hand luggage allowed?", "hand luggage", "cabin luggage", "cabin bag allowance", "cabin baggage", "on board baggage", "checked baggage", "bag", "baggage weight", "baggage size", "baggage weight", "baggage size", "baggage limitations","kilos","kilograms","bag kilos" ],
          "responses": ["You can take on board 1 piece of hand luggage up to a maximum weight of 10 kg, and a maximum size of 55x40x20 cm. You can also carry a smaller bag or case (max. 35x20x20), which must be stored under the seat in front."]
         },
         {"tag": "pets",
@@ -33,7 +33,7 @@
          "responses": ["If you are at the airport and your bag has failed to appear on the luggage belt, follow these steps: 1. Go to the Lost and Found office located in the baggage collection area. 2. Report the incident in the Property Irregularity Report (P.I.R.) that you will be given there.  3. Once we have located your luggage, we will inform you via SMS or by phone, and we will send it to you at the address specified in the P.I.R. If you would like to specify a new delivery address, please advise us so we can update it. "]
         },
         {"tag": "cancelled flights",
-         "patterns": ["How do I claim a cancelled flight?", ", rights or options if cancellation", "cancelled flight", "my cancellation rights", "which are my rights if my fligh is cancelled", "passenger cancellation rights", "my flight has been cancelled what do i do", "what happens if my flight is cancelled"],
+         "patterns": ["How do I claim a cancelled flight?", ", rights or options if cancellation", "cancelled flight", "my cancellation rights", "the fligh is cancelled", "passenger cancellation rights", "my flight has been cancelled", "what happens if my flight is cancelled"],
          "responses": ["If your flight has been cancelled, please go to Manage your booking to see the alternatives that we can offer you. There you can manage changes directly or choose the alternatives available to you more quickly and easily. If you need to make a claim, or ask for compensation, you can do so directly via the Contact page on our website. Before initiating any procedure, check your passenger rights. In case of cancellation you have the following rights: 1. we can re-book you on another flight at the earliest opportunity, subject to availability of seats. 2. we can refund you the total fare paid for the cancelled flight. 3. Also a part from facilitate two phone calls, fax or e-mail, when the time of departure of the new flight is the day after the departure as it was planned for the cancelled flight arrange hotel accommodation and transport between the airport and place of accommodation free of charge. Also note that if your flight is cancelled for reasons attributable to us, you are entitled to receive, besides your passenger rights, a compensation calculated according to the length of the flight: Flights of less than 1500 km: 250 EUR. Flights of between 1500 and 3500 km: 400 EUR. Flights of more than 3500 km: 600 EUR. In the case of extraordinary circumstances, passengers are entitled to assistance at the airport and even hotel accommodation if the flight departs the following day."]
 },
 {"tag": "flight changes",
