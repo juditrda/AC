@@ -49,7 +49,7 @@
          "responses": ["Apologies if your flight has been delayed. In this case if the delay is morre that 2 hours but less than 5 hours you have the following rights: 1. refreshment and meal in a value that is proportionate to your delay. 2. two telephone calls, or telex, fax messages or e-mails. If your flight has been delayed more than 5 hours you have the following rights: 1. you can cancel your fligh reservation and we will reimburse the total fare of the cancelled flight at the price at which it was bought. 2. we can re-book you onto a return flight operated by us or another airline under comparable transport conditions to your first point of departure, at the earliest opportunity, subject to availability of seats. 3. if as a result of the long delay, the time of departure of the delayed flight is the day after the planned day of departure, we will arrange hotel accommodation and transport between the airport and place of accommodation free of charge. *In all situations if th delay is more than 3 hours you have also the right of claim a compensation."]
 },
 {"tag": "flight information",
-         "patterns": ["where can i find information about the flight", "flight status", "status information"],
+         "patterns": ["where can i find information about the flight", "flight status", "status information","status"],
          "responses": ["You can see the status of your flight in real time in the Flight Status section in our official webpage, app or in the airports origin or destination webpage. Also, if there's a change, delay or cancellation of your flight, you will be previously informed by e-mail or via app or SMS."]
 },
 {"tag": "electronic devices",
@@ -57,19 +57,19 @@
          "responses": ["Yeah, I can't sleep on planes either. So sure you can bring your electronic devices like a laptop, tablet, phone, portable game device or e-reader. Please note that all electronic devices should be taken to the cabin. Just remember they have to be on flight mode from boarding to landing. "]
 },
 {"tag": "own food",
-         "patterns": ["Can I bring my own food on board", "bring my home food", "bring food from home", "can i heat food on board", "use the micro onboard","food from home", "food not purchased onboard", "homemade food", "not purchased"],
+         "patterns": ["Can I bring my own food on board", "home food", "food from home", "heat food on board", "use the micro onboard","food from home", "food not purchased onboard", "homemade food", "not purchased"],
          "responses": ["You may bring your own food on board if you follow the safety regulations. Please note that the food cannot be heated during the flight and also that you are not allowed to bring any liquids."]
 },
 {"tag": "smoking",
-         "patterns": ["Can I use electronic cigarettes on board", "can i smoke on board", "smoking allow", "is it allowed to smoke on board"],
+         "patterns": ["Can I use electronic cigarettes on board", "smoke on board", "smoking allow", "is it allowed to smoke on board","smoke"],
          "responses": ["No you can't. It is terminately prohibited to smoke onboard, even if it's an electronic cigarrete."]
 },
 {"tag": "seat size",
-         "patterns": ["Which is the size of the seat", "is it the seat confortable", "seat size per fares", "seat measures", "are business seats so big?", "are economy seats very small", "distances between seats", "legs distance", "seat comfort"],
+         "patterns": ["Which is the size of the seat", "is it the seat confortable", "seat size per fares", "seat measures", "business seats so big?", "seats very small", "distances between seats", "seats distance", "seat comfort"],
          "responses": ["Economy class seats are stantarized, so you'll have enough space for your legs to fit and also not disturb or be disturbed by your seat partners. Business class seats are bigger and more confortable, with more space for the legas and also wider, so you won't even notice if there's a flight partner because there's just 4 seats per row, not 6 seats as in Economy class. All of them are made by leather."]
 },
 {"tag": "Ticket changes",
-         "patterns": ["Can I change the name of my ticket?", "my name on the ticket is incorrect","change name", "name", "change","incorrect name", "how change my name"],
+         "patterns": ["Can I change the name of my ticket?", "my name on the ticket is incorrect","change name", "name", "change","incorrect name", "change my name"],
          "responses": ["Name Changes:some of our fares allow you to change the name on the ticket for a fee. Click on Fare Rules to see if your ticket qualifies & fees.Name Corrections: If you have misspelt your name by mistake, or changed surname due to marriage or other, please contact us."]
 },
 {"tag": "Buy tickets",
@@ -77,7 +77,7 @@
          "responses": ["You can buy your flight tickets by different ways: 1- entering directly in our airline website. 2- buy it in an agency website. 3- Buy it personally in the big agency sales centers."]
 },
 {"tag": "Online check-in",
-         "patterns": ["How can I do the check-in?","Is it possible to do the online check-in?", "Can I do the check-in with my phone?", "online check-in", "check-in online", "How to do the online check-in", "check-in."],
+         "patterns": ["How can I do the check-in?","the online check-in?", "check-in with my phone?", "online check-in", "check-in online", "How to do the online check-in", "check-in."],
          "responses": ["Once you've completed your booking and depending on your fare selected, your online check-in could be Optima and Excellence Fares: Once you've completed your booking, you'll receive an email containing your boarding passes. Once you have them, don't forget to print them out, or download them on the airline app for smartphones. That way, you'll save time on the day of your flight because, if you don't have to check in any baggage, you can go straight to the boarding gate. In the case of connecting flights, you can also check in online. Basic Fare :You can check in online free of charge by requesting a random seat (subject to availability) between 7 days and 4 hours before your flight departs (except if you are flying from Cardiff, Lyon, Prague or London Heathrow, where you can only check in online up to 24 hours before departure). Most airports we fly to allow online check-in, but there are certain airports for which this service is not available (check whether the airport allows it)."]
 },
 {"tag": "Documentation",
@@ -117,16 +117,12 @@
          "responses": ["If you are not able to safely and comfortably fit in one seat with the armrests down for the entirety of the flight, please see our Customers Requiring Extra Seating page for information. You can also purchase an extra seat for a musical instrument or a fragile item. Please see our Cabin-seat Baggage page for more information."]
 },
         {"tag": "insurances",
-         "patterns": ["How can I book a travel insurance", "pet medical insurance", "which options of travel insurance do you have", "insurance options", "baggage insurance", "travel insurance" ],
+         "patterns": ["How can I book a travel insurance", "medical insurance", "which options of travel insurance do you have", "insurance options", "baggage insurance", "travel insurance" ],
          "responses": ["When booking your flight, you have the option to take out different types of insurance: 1. Cancellation insurance: full refund on your booking. 2. Travel insurance: medical expenses at destination. 3. Missed flight cover: free change of flight or refund if you miss your flight. 4. Luggage or special luggage insurance: compensation in the event of loss or damage. 4 .Pet insurance: vet expenses throughout the trip."]
 },
 {"tag": "insurances after booking",
          "patterns": ["Can I sign up for travel insurance after booking the flight", "can i add insurance after booking", "after booking insurance"],
          "responses": ["You can sign up for an insurance after booking. Just go to Manage your booking and follow the steps. This sevice has a cost of 10€."]
-},
-{"tag": "insurance cover",
-         "patterns": ["When does insurance coverage begin and end", "insurace coverage", "insurance stars and ends"],
-         "responses": ["The insurances start when you cross the boarding gate and end when the chocks of the plane are placed."]
 },
 {"tag": "liquids",
          "patterns": ["can i carry bring liquids on board", "liquids allowance", "what liquidscan i carry onboard", "liquids"],
